@@ -1,2 +1,7 @@
 # Environments
 .env
+bot_venv/
+
+.mypy_cache/
+.vscode/
+__pycache__/
