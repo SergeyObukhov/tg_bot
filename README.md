@@ -13,4 +13,4 @@ telegram bot development
 * [Advanced User Telegram Bot](https://github.com/BaggerFast/AdvancedUserTelegramBot) by [BaggerFast](https://github.com/BaggerFast)
 * [tgbot_template](https://github.com/Tishka17/tgbot_template) by [Tishka17](https://github.com/Tishka17)
 * [tgbot_template](https://github.com/Latand/tgbot_template) by [Latand](https://github.com/Latand)
-* [simple-aiogram-bot](simple-aiogram-bot by xALEGORx) by [xALEGORx](https://github.com/xALEGORx)
+* [simple-aiogram-bot](https://github.com/xALEGORx/simple-aiogram-bot) by [xALEGORx](https://github.com/xALEGORx)
