@@ -1,17 +1,17 @@
 # Проект 2. Игра "Камень ножницы бумага"
 
 ## Оглавление  
-[1. Описание проекта](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_game#описание-проекта)  
-[2. Какой кейс решаем?](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_game#какой-кейс-решаем)  
-[3. Описание взаимодействия с ботом](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_game#описание-взаимодействия-с-ботом)  
-[4. Этапы работы над проектом](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_game#этапы-работы-над-проектом)  
-[5. Результаты](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_game#результаты)  
-[6. Выводы](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_game#выводы)  
+[1. Описание проекта](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_bot#описание-проекта)  
+[2. Какой кейс решаем?](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_bot#какой-кейс-решаем)  
+[3. Описание взаимодействия с ботом](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_bot#описание-взаимодействия-с-ботом)  
+[4. Этапы работы над проектом](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_bot#этапы-работы-над-проектом)  
+[5. Результаты](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_bot#результаты)  
+[6. Выводы](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_bot#выводы)  
   
 ### Описание проекта  
 Телеграм-бот, с которым можно играть в игру "Камень, ножницы, бумага"
   
-:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_game#оглавление)  
+:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_bot#оглавление)
   
   
 ### Какой кейс решаем?  
@@ -27,7 +27,7 @@
 - Учимся программировать с использованием модульной файловой структуры.
 - Практикуем методы работы с роутерами.
   
-:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_game#оглавление)  
+:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_bot#оглавление)
 
 ### Описание взаимодействия с ботом  
 1. Пользователь отправляет команду /start боту (или стартует его, найдя в поиске)
@@ -57,7 +57,7 @@
 7. Пользователь отправляет в чат любое другое сообщение:
     1. Бот присылает в чат сообщение, что не понимает пользователя
   
-:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_game#оглавление)  
+:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_bot#оглавление)
   
   
 ### Этапы работы над проектом:  
@@ -70,7 +70,7 @@
 7. **Реализуем игровую логику в модуле *services.py***
 
   
-:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_game#оглавление)  
+:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_bot#оглавление) 
   
   
 ### Результаты  
@@ -78,11 +78,11 @@
 - Я отработал приёмы работы с роутерами.  
 - Я потренировался в скрытии секретных данных.
   
-:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_game#оглавление)  
+:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_bot#оглавление) 
   
   
 ### Выводы  
 Я справился с поставленной задачей:
 написал простейшего эхо бота. 
   
-:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_game#оглавление)
+:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_bot#оглавление)

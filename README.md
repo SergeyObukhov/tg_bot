@@ -4,6 +4,7 @@ telegram bot development
 ## Projects:
 
 * [Modular_echo_bot](https://github.com/SergeyObukhov/tg_bot/blob/master/modular_echo_bot) - первый подход к изучению телеграм ботов. Изучение роутеров.
+* [Game_rsp_bot](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_bot) - Игра "Камень ножницы бумага". Работа с обычными кнопками.
 
 ## Другие шаблоны для ботов на aiogram:
 
