@@ -1,4 +1,4 @@
-# tg_bot
+# TG_BOT
 telegram bot development
 
 ## projects:
