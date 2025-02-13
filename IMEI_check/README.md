@@ -1,20 +1,19 @@
 # Телеграм бот IMEI
 
 ## Оглавление  
-[1. Описание проекта](https://github.com/SergeyObukhov/RFM-analitics#описание-проекта)  
-[2. Какой кейс решаем?](https://github.com/SergeyObukhov/RFM-analitics#какой-кейс-решаем)  
-[3. Краткая информация о данных](https://github.com/SergeyObukhov/RFM-analitics#краткая-информация-о-данных)   
-[4. Результаты](https://github.com/SergeyObukhov/RFM-analitics#результаты)  
-[5. Выводы](https://github.com/SergeyObukhov/RFM-analitics#выводы)  
+[1. Описание проекта](https://github.com/SergeyObukhov/tg_bot/tree/master/IMEI_check#описание-проекта)  
+[2. Какой кейс решаем?](https://github.com/SergeyObukhov/tg_bot/tree/master/IMEI_check#какой-кейс-решаем)  
+[3. Результаты](https://github.com/SergeyObukhov/tg_bot/tree/master/IMEI_check#результаты)  
+[4. Выводы](https://github.com/SergeyObukhov/tg_bot/tree/master/IMEI_check#выводы)  
   
 ### Описание проекта  
 Необходимо разработать бэкенд-систему для проверки IMEI устройств, которая будет интегрирована с Telegram-ботом и предоставлять API для внешних запросов. В рамках тестового задания необходимо реализовать базовую работу с одним сервисом.
   
-:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/RFM-analitics#оглавление)  
+:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/tg_bot/tree/master/IMEI_check#оглавление)  
   
   
 ### Какой кейс решаем?  
-Необходим сервис, который позволит проверить "чистоту" телефона по IMAI-идентификатору.  
+Необходим сервис, который позволит проверить "чистоту" телефона по IMEI-идентификатору.  
   
 **Функционал приложения**  
 - Доступ к приложению - белый список пользователей для Telegram
@@ -29,8 +28,8 @@
     Метод: POST /api/check-imei
 
         Параметры запроса:
-            - *imei* (строка, обязательный) — IMEI устройства.
-            - *token* (строка, обязательный) — токен авторизации.
+            - imei (строка, обязательный) — IMEI устройства.
+            - token (строка, обязательный) — токен авторизации.
 
         Ответ:
             - JSON с информацией о IMEI.
@@ -44,17 +43,17 @@
 - *telebot*
 - *datetime*
   
-:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/RFM-analitics#оглавление)  
+:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/tg_bot/tree/master/IMEI_check#оглавление)  
    
   
 ### Результаты
-- Телеграм бот принимает запросы на проверку IMAI.
+- Телеграм бот принимает запросы на проверку IMEI.
 - Приложение возвращает форматированную информацию о телефоне для авторизованных пользователей.
 - Система предоставляет API для внешних запросов.
 - Возвращает ошибку с описанием причины отказа.  
 
   
-:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/RFM-analitics#оглавление)  
+:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/tg_bot/tree/master/IMEI_check#оглавление)  
   
   
 ### Выводы  
@@ -65,4 +64,4 @@
 - организовать базу данных для хранения белого листа, и истории запросов,
 - добавить форматированный вывод для Android - устройств (сейчас только для iPhone)
   
-:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/RFM-analitics#оглавление)
+:arrow_up: [к оглавлению](https://github.com/SergeyObukhov/tg_bot/tree/master/IMEI_check#оглавление)

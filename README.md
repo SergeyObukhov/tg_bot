@@ -3,7 +3,7 @@ telegram bot development
 
 ## Projects:
 
-* [PET_check_IMAI_bot](https://github.com/SergeyObukhov/tg_bot/blob/master/IMAI_check) - Бот для проверки телефонов по IMAI.
+* [PET_check_IMAI_bot](https://github.com/SergeyObukhov/tg_bot/blob/master/IMEI_check) - Бот для проверки телефонов по IMEI.
     
     Учебные:
 * [Modular_echo_bot](https://github.com/SergeyObukhov/tg_bot/blob/master/modular_echo_bot) - первый подход к изучению телеграм ботов. Изучение роутеров.
