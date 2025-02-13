@@ -2,32 +2,33 @@ from flask import Flask, request, jsonify
 import requests
 import telebot
 from datetime import datetime
+from config import Config, load_config
 
 app = Flask(__name__)
+
+# Загружаем конфиг в переменную config
+config: Config = load_config()
 
 # Белый список пользователей
 WHITELIST = {123456789}  # Замените на реальные Telegram ID
 
 # Токен API imeicheck.net
-API_TOKEN = 'e4oEaZY1Kom5OXzybETkMlwjOCy3i8GSCGTHzWrhd4dc563b'
-API_URL = 'https://api.imeicheck.net/v1/checks'
-
-# Токен Telegram-бота
-TELEGRAM_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+SERVICE_TOKEN = config.service.token
+SERVICE_URL = config.service.url
 
 # Токен эндпоинта API для внешних запросов
-ENDPOINT_TOKEN = 'YOUR_ENDPOINT_API_TOKEN'
+ENDPOINT_TOKEN = config.api_access.token
 
 # Инициализация Telegram-бота
-bot = telebot.TeleBot(TELEGRAM_TOKEN)
+bot = telebot.TeleBot(config.tg_bot.token)
 
 # Функция для проверки IMEI через API imeicheck.net
 def check_imei(imei):
     headers = {
-        'Authorization': f'Bearer {API_TOKEN}',
+        'Authorization': f'Bearer {SERVICE_TOKEN}',
         'Content-Type': 'application/json'
     }
-    response = requests.post(API_URL, json={'imei': imei}, headers=headers)
+    response = requests.post(SERVICE_URL, json={'imei': imei}, headers=headers)
     if response.status_code == 200:
         return response.json()
     return None
