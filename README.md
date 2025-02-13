@@ -3,6 +3,8 @@ telegram bot development
 
 ## Projects:
 
+* [PET_check_IMAI_bot](https://github.com/SergeyObukhov/tg_bot/blob/master/IMAI_check) - Бот для проверки телефонов по IMAI.
+    Учебные:
 * [Modular_echo_bot](https://github.com/SergeyObukhov/tg_bot/blob/master/modular_echo_bot) - первый подход к изучению телеграм ботов. Изучение роутеров.
 * [Game_rsp_bot](https://github.com/SergeyObukhov/tg_bot/blob/master/game_rsp_bot) - Игра "Камень ножницы бумага". Работа с обычными кнопками.
 * [Book_bot](https://github.com/SergeyObukhov/tg_bot/blob/master/book_bot) - Телеграм-бот, в котором можно читать книгу.
