@@ -2,6 +2,7 @@ from copy import deepcopy
 
 from aiogram import F, Router
 from aiogram.filters import Command, CommandStart
+from aiogram import types
 from aiogram.types import CallbackQuery, Message
 from database.database import user_dict_template, users_db
 from filters.filters import IsDelBookmarkCallbackData, IsDigitCallbackData
@@ -19,7 +20,7 @@ router = Router()
 # и отправлять ему приветственное сообщение
 @router.message(CommandStart())
 async def process_start_command(message: Message):
-    await message.answer(LEXICON[message.text])
+    await message.answer(LEXICON[message.text], reply_markup=types.ReplyKeyboardRemove())
     if message.from_user.id not in users_db:
         users_db[message.from_user.id] = deepcopy(user_dict_template)
 
